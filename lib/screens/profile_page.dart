@@ -50,7 +50,13 @@ class ProfilePage extends StatelessWidget {
                   border: OutlineInputBorder(), labelText: 'Department'),
               maxLength: 30,
               maxLines: 1,
-            )
+            ),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => const HomePage()));
+                },
+                child: const Text('Save'))
           ],
         ),
       ),
