@@ -31,11 +31,15 @@ class DrawerPage extends StatelessWidget {
                   height: 100,
                 ),
                 Text(
-                  'Esra Hodoğlugil',
+                  'user_name',
                   style: TextStyle(fontSize: 16),
                 ),
                 Text(
-                  'Computer Engineer',
+                  'mail address',
+                  style: TextStyle(fontSize: 12),
+                ),
+                Text(
+                  'department',
                   style: TextStyle(fontSize: 12),
                 )
               ],
