@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.red[200],
         title: const Center(child: Text('ToDo LIST APP')),
       ),
-      body: Column(
+      body: ListView(
         children: [
           Padding(
             padding: const EdgeInsets.all(20.0),
